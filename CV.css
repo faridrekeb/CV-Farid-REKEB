@@ -1,0 +1,117 @@
+body{font-family:calibri, arial;
+  font-size:15px;
+  padding:0px;
+  margin:0px;
+  }
+
+h1{
+  font-size:40px;
+font-weight:normal;
+  text-align:center;}
+
+header{
+  height:100px;}
+
+
+footer{
+ height:80px; 
+ padding-top:30px;
+ font-weight:bold;
+ font-style:italic;
+ text-align:center;
+ background-color:#c5c5cc;
+ border-top:2px solid #77b5ff; 
+ color:black; 
+}
+
+
+nav{
+  width:100%;
+  background-color:#77b5ff;
+}
+
+nav ul{  
+  padding:0px;
+  margin:0px;
+  }
+
+
+
+nav li{
+  list-style-type:none;
+  float:left;
+  }
+
+nav a{
+  display:inline-block;
+  text-decoration: none;
+  padding:20px 30px;
+  color: #333;
+  text-transform: uppercase; 
+  font-size:15px;
+  font-weight:bold;
+  }
+
+
+.table{
+  display:table;
+  margin:0 auto;}
+
+.premier:hover{
+  border-top: 5px solid #0000ff; 
+  background-color: rgba(100,100, 200, 0.15);} 
+
+.deux:hover{
+  border-top: 5px solid #ffffff; 
+  background-color: rgba(100,100, 100, 0.15);
+}
+
+.trois:hover{
+   border-top: 5px solid #ff0000; 
+  background-color: rgba(100,200, 100, 0.15);} 
+
+.quatre:hover{
+  border-top: 5px solid #ffffff; 
+  background-color: rgba(200,100, 100, 0.15);
+} 
+
+.cinq:hover{
+  border-top: 5px solid #0000ff; 
+  background-color: rgba(100,100, 100, 0.15);
+}
+
+
+.six:hover{
+   border-top: 5px solid #ff0000; 
+  background-color: rgba(100,200, 100, 0.15);} 
+
+
+
+nav li:hover a{
+  color:blue;
+  padding: 15px 30px 20px 30px;
+}
+
+@media screen and (max-width: 780px){
+  header{
+    height: 50px;
+  }
+  
+  h1{
+    font-size: 12px;
+    margin: 20px 0px 0px 0px;}
+
+  nav li a{
+     font-size: 12px;
+     padding: 10px;
+  }
+  
+  nav li:hover a{
+    padding: 5px 10px 10px 10px; 
+  }
+
+
+.divright{
+  padding:10px 20px 10px 10px;
+  float:right; 
+}

@@ -1,0 +1,213 @@
+body{font-family:calibri, arial;
+  font-size:15px;
+  padding:0px;
+  margin:0px;
+  }
+
+h1{
+  font-size:40px;
+font-weight:normal;
+  text-align:center;}
+
+header{
+  height:100px;
+  
+  }
+
+
+footer{
+ height:80px; 
+ padding-top:30px;
+ font-weight:bold;
+ font-style:italic;
+ text-align:center;
+ background-color:#c5c5cc;
+ border-top:2px solid #77b5ff; 
+ color:black; 
+}
+
+
+nav{
+  width:100%;
+  background-color:#77b5ff;
+}
+
+nav ul{  
+  padding:0px;
+  margin:0px;
+  }
+
+
+
+nav li{
+  list-style-type:none;
+  float:left;
+  }
+
+nav a{
+  display:inline-block;
+  text-decoration: none;
+  padding:20px 30px;
+  color: #333;
+  text-transform: uppercase; 
+  font-size:15px;
+  font-weight:bold;
+  }
+
+
+.table{
+  display:table;
+  margin:0 auto;}
+
+.premier:hover{
+  border-top: 5px solid #0000ff; 
+  background-color: rgba(100,100, 200, 0.15);} 
+
+.deux:hover{
+  border-top: 5px solid #ffffff; 
+  background-color: rgba(100,100, 100, 0.15);
+}
+
+.trois:hover{
+   border-top: 5px solid #ff0000; 
+  background-color: rgba(100,200, 100, 0.15);} 
+
+.quatre:hover{
+  border-top: 5px solid #ffffff; 
+  background-color: rgba(200,100, 100, 0.15);
+} 
+
+.cinq:hover{
+  border-top: 5px solid #0000ff; 
+  background-color: rgba(100,100, 100, 0.15);
+}
+
+
+.six:hover{
+   border-top: 5px solid #ff0000; 
+  background-color: rgba(100,200, 100, 0.15);} 
+
+
+
+nav li:hover a{
+  color:blue;
+  padding: 15px 30px 20px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+label{
+  display:inline-block;
+  width:300px;
+  padding: px 0px 15px 40px;
+  font-weight:0px;
+}
+
+
+#s1{
+  background-color:rgba(000,100,350,0.3);
+  padding:20px;
+  margin:20px;
+  
+}
+
+
+#s2{
+  background-color:rgba(300,000,000,0.3);
+  padding:20px;
+  margin:20px;
+}
+
+#s1:hover, #s2:hover, #s3:hover {
+  box-shadow:0px 0px 5px; 
+}
+
+legend{
+  font-weight:bold; 
+  text-transform:uppercase;
+  color: blue; 
+}
+
+
+
+#s1 input{
+  width:210px;
+  height:19px
+}
+#s2 input{
+  width:20px;
+  height:15px
+}
+
+
+input[type="submit"]{
+  padding: 4px;
+  color:black; 
+  font-size:14px;
+  font-weight:bold;
+  background-color:rgba(150,150,150,0.5);
+  margin:-50px 850px;
+  float: right;}
+
+input[type="submit"]:hover{ box-shadow: 1px 1px 4px green;
+                            backgroud-color: red;
+}
+
+#s3{
+  background-color:rgba(150,180,100,0.5);
+  margin:20px; 
+  padding:20px;
+}
+
+#s1 label{ 
+ font-weight:bold;
+}
+#s3 label{ 
+ font-weight:bold;
+}
+
+
+.it2 {
+	font-weight:bold;
+	}
+
+
+
+
+
+@media screen and (max-width:780px){
+  header{
+    height: 50px;
+  }
+  
+  h1{
+    font-size: 12px;
+    margin: 20px 0px 0px 0px;}
+
+  nav li a{
+     font-size: 12px;
+     padding: 10px;
+  }
+  
+  nav li:hover a{
+    padding: 5px 10px 10px 10px; 
+  }
+
+
+.divright{
+  padding:10px 20px 10px 10px;
+  float:right; 
+}
+
+
